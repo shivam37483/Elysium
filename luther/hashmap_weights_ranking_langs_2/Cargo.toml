@@ -1,0 +1,6 @@
+[package]
+name = "hashmap_weights_ranking_langs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
