@@ -19,8 +19,8 @@ fn generate_fruit() -> String {
     let mut rng = thread_rng();
 
     match fruits.choose(&mut rng) {
-        Some(s) => return s.to_string(),
-        _ => return String::from(""),
+        Some(s) => s.to_string(),
+        _ => String::from(""),
     }
 }
 
