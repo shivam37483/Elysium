@@ -18,7 +18,6 @@ jobs:
 
 
 
-
 # name: Rustfmt
 
 # on: [push, pull_request]

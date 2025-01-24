@@ -12,6 +12,7 @@ jobs:
         run: |
           for dir in $(find . -name Cargo.toml -exec dirname {} \;); do
             cd $dir
+            cargo fmt --all
             cargo clippy --all-targets --all-features -- -D warnings
             cd -
           done
