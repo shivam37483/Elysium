@@ -84,6 +84,8 @@ fn generate_fruits() -> BinaryHeap<Fruit> {
     fruit_salad
 }
 
+#[allow(clippy::clone_on_copy)]
+
 // Better implementation
 fn generate_fruits2() -> BinaryHeap<Fruit> {
     let mut fruit_salad = BinaryHeap::new();
@@ -120,7 +122,6 @@ fn generate_fruits2() -> BinaryHeap<Fruit> {
 
     fruit_salad
 }
-
 
 fn main() {
     let salad = generate_fruits();

@@ -3,7 +3,7 @@ use std::collections::BTreeSet;
 use rand::thread_rng;
 use rand::seq::SliceRandom;
 
-
+#[allow(clippy::clone_on_copy)]
 fn main() {
     // BTree-set is used to store the val in sorted order, with providing log access, insertion, deletion time.
 
