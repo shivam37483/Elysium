@@ -7,14 +7,34 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions-rs/toolchain@v1
-        with:
-          toolchain: stable
-          profile: minimal
-          components: clippy, rustfmt
-          override: true
-      - name: Run clippy
-        run: make lint
-  
+      - uses: actions/checkout@v2
+      - name: Find and run clippy
+        run: |
+          for dir in $(find . -name Cargo.toml -exec dirname {} \;); do
+            cd $dir
+            cargo clippy --all-targets --all-features -- -D warnings
+            cd -
+          done
 
+
+
+
+# name: Clippy
+
+# on: [push, pull_request]
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+
+#     steps:
+#       - uses: actions/checkout@v1
+#       - uses: actions-rs/toolchain@v1
+#         with:
+#           toolchain: stable
+#           profile: minimal
+#           components: clippy, rustfmt
+#           override: true
+#       - name: Run clippy
+#         run: make lint
+  
