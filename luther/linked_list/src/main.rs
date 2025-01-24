@@ -1,7 +1,7 @@
 use std::collections::LinkedList;
 
 fn main() {
-    // In Rust LL are generally avoided as they hv high memory overhead and worse cache locality than vec, vecdec 
+    // In Rust LL are generally avoided as they hv high memory overhead and worse cache locality than vec, vecdec.
     
     // Rust provides Doubly Linked List
     let mut list = LinkedList::new();
@@ -14,3 +14,5 @@ fn main() {
         println!("{}", node);
     }
 }
+
+
