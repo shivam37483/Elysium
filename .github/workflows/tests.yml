@@ -15,19 +15,20 @@ jobs:
         with:
           toolchain: stable
           profile: minimal
-          components: clippy, rustfmt
+          components: rustfmt
           override: true
 
-      - name: Find changed directories with Cargo.toml
+      - name: Find changed directories with Cargo.toml or Rust files
         id: find_folders
         run: |
-          # Get a list of changed folders containing Cargo.toml
-          CHANGED_FOLDERS=$(git diff --name-only ${{ github.base_ref || 'HEAD^' }} -- '*.toml' | grep "Cargo.toml" | xargs -n1 dirname)
-          if [ -z "$CHANGED_FOLDERS" ]; then
-            echo "No new or modified folders with Cargo.toml found."
+          # Get a list of changed Cargo.toml or .rs files
+          CHANGED_FILES=$(git diff --name-only ${{ github.base_ref || 'HEAD^' }} -- '*.toml' '*.rs' || true)
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No changed Cargo.toml or Rust files detected."
             echo "changed_folders=none" >> $GITHUB_ENV
           else
-            echo "Changed folders with Cargo.toml: $CHANGED_FOLDERS"
+            CHANGED_FOLDERS=$(echo "$CHANGED_FILES" | xargs -n1 dirname | sort | uniq)
+            echo "Changed folders: $CHANGED_FOLDERS"
             echo "changed_folders=$CHANGED_FOLDERS" >> $GITHUB_ENV
           fi
 
