@@ -3,17 +3,38 @@ name: Clippy
 on: [push, pull_request]
 
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions-rs/toolchain@v1
+      - name: Checkout code
+        uses: actions/checkout@v1
+
+      - name: Install Rust toolchain
+        uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
           profile: minimal
           components: clippy, rustfmt
           override: true
-      - name: Run clippy
-        run: make lint
-  
+
+      - name: Find changed directories with Cargo.toml
+        id: find_folders
+        run: |
+          # Get a list of changed folders containing Cargo.toml
+          CHANGED_FOLDERS=$(git diff --name-only ${{ github.base_ref || 'HEAD^' }} -- '*.toml' | grep "Cargo.toml" | xargs -n1 dirname)
+          if [ -z "$CHANGED_FOLDERS" ]; then
+            echo "No new or modified folders with Cargo.toml found."
+            echo "changed_folders=none" >> $GITHUB_ENV
+          else
+            echo "Changed folders with Cargo.toml: $CHANGED_FOLDERS"
+            echo "changed_folders=$CHANGED_FOLDERS" >> $GITHUB_ENV
+          fi
+
+      - name: Run Clippy for each changed folder
+        if: env.changed_folders != 'none'
+        run: |
+          for folder in $changed_folders; do
+            echo "Running clippy in $folder..."
+            cargo clippy --manifest-path $folder/Cargo.toml --quiet || exit 1
+          done
