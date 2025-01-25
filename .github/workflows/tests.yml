@@ -27,8 +27,8 @@ jobs:
             echo "No changed Cargo.toml or Rust files detected."
             echo "changed_folders=none" >> $GITHUB_ENV
           else
-            # Normalize directories and store them in GITHUB_ENV
-            CHANGED_FOLDERS=$(echo "$CHANGED_FILES" | xargs -n1 dirname | sort | uniq)
+            # Extract directories containing Cargo.toml files
+            CHANGED_FOLDERS=$(echo "$CHANGED_FILES" | grep 'Cargo.toml' | xargs -n1 dirname | sort | uniq)
             echo "Changed folders: $CHANGED_FOLDERS"
             printf "%s\n" "$CHANGED_FOLDERS" > changed_folders.txt
             echo "changed_folders=$(cat changed_folders.txt | tr '\n' ' ')" >> $GITHUB_ENV
@@ -39,5 +39,5 @@ jobs:
         run: |
           for folder in ${{ env.changed_folders }}; do
             echo "Running tests in $folder..."
-            cargo test --manifest-path $folder/Cargo.toml || exit 1
+            (cd $folder && cargo test) || exit 1
           done
