@@ -1,0 +1,1 @@
+C:\river\Elysium\obsidian\community_detection_kosaraju\target\debug\community_detection_kosaraju.exe: C:\river\Elysium\obsidian\community_detection_kosaraju\src\lib.rs C:\river\Elysium\obsidian\community_detection_kosaraju\src\main.rs
