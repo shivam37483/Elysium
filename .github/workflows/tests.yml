@@ -37,5 +37,5 @@ jobs:
         run: |
           for folder in $changed_folders; do
             echo "Running tests in $folder..."
-            cargo test --manifest-path $folder/Cargo.toml || exit 1
+            cargo test --manifest-path $folder/Cargo.toml --quite || exit 1
           done
