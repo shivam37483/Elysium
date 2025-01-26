@@ -3,7 +3,6 @@ use salad_generator_csv_parsing::create_randomized_fruit_salad;
 use clap::Parser;
 use std::fs::read_to_string;
 
-
 // Aim is to build a cli which takes either a CSV file or a string of fuits as input and returns this list. 
 
 // Boiler Code required to run parser
