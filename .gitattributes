@@ -1,0 +1,2 @@
+*.make linguist-vendored
+*.mk linguist-vendored
