@@ -1,0 +1,13 @@
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\liburl-27a3b21b8461738c.rmeta: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\encoding.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\host.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\origin.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\path_segments.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\parser.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\slicing.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\form_urlencoded.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\quirks.rs
+
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\url-27a3b21b8461738c.d: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\encoding.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\host.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\origin.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\path_segments.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\parser.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\slicing.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\form_urlencoded.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\quirks.rs
+
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\lib.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\encoding.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\host.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\origin.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\path_segments.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\parser.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\slicing.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\form_urlencoded.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\url-1.7.2\src\quirks.rs:

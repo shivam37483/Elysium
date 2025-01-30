@@ -2,12 +2,10 @@ use std::sync::{Arc, Mutex};
 use std::time::Duration;
 use std::thread;
 
-
 pub struct Fork {
     pub id: usize,
     pub mutex: Mutex<()>,
 }
-
 
 pub struct Philospher {
     id: usize,

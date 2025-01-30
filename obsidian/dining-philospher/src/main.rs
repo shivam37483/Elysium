@@ -8,12 +8,13 @@ use std::time::Instant;
 fn main() {
     println!("Dining Philosophers Problem:  15 Philosophers, 4 Forks...Yikes!!");
 
+    // Aim is to allow all the pihlosphers to eat such no one starves and no condition should lead to infinite wait time.
 
     let forks = (0..4)
                                         .map(|id| {
                                             Arc::new(
                                                 Fork {
-                                                    id, 
+                                                    id,
                                                     mutex: Mutex::new(()),
                                                 }
                                             )
@@ -47,8 +48,7 @@ fn main() {
                                                 Arc::clone(&forks[right_fork_id]),
                                             )
                                         }).collect:: <Vec<_>>();
- 
-    
+
     let start = Instant::now();
 
     let handles = philosophers
@@ -65,7 +65,6 @@ fn main() {
             Err(_) => print!("Could not join"),
         }
     }
-
 
     println!("Total time: {:?}", start.elapsed());
 }

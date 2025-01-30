@@ -1,0 +1,12 @@
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\libnet2-5b12f14434bee29e.rmeta: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\tcp.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\udp.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\socket.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\ext.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\utils.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\sys\windows\mod.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\sys\windows\impls.rs
+
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\net2-5b12f14434bee29e.d: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\tcp.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\udp.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\socket.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\ext.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\utils.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\sys\windows\mod.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\sys\windows\impls.rs
+
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\lib.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\tcp.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\udp.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\socket.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\ext.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\utils.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\sys\windows\mod.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\net2-0.2.39\src\sys\windows\impls.rs:

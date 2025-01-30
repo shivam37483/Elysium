@@ -1,0 +1,10 @@
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\libcrossbeam_queue-379ae75fe6d76c7f.rmeta: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\array_queue.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\err.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\seg_queue.rs
+
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\libcrossbeam_queue-379ae75fe6d76c7f.rlib: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\array_queue.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\err.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\seg_queue.rs
+
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\crossbeam_queue-379ae75fe6d76c7f.d: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\array_queue.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\err.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\seg_queue.rs
+
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\lib.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\array_queue.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\err.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\crossbeam-queue-0.2.3\src\seg_queue.rs:

@@ -1,0 +1,9 @@
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\libtokio_reactor-345110ced3e3a628.rmeta: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\background.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\poll_evented.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\registration.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\sharded_rwlock.rs
+
+C:\Elysium\obsidian\webcrawl-wikipedia-rayon\target\debug\deps\tokio_reactor-345110ced3e3a628.d: C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\lib.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\background.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\poll_evented.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\registration.rs C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\sharded_rwlock.rs
+
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\lib.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\background.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\poll_evented.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\registration.rs:
+C:\Users\shvats\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-reactor-0.1.12\src\sharded_rwlock.rs:
