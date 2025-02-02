@@ -19,7 +19,7 @@ async  fn main() -> Result<(), reqwest::Error> {
     // };
 
     let url = "https://openrouter.ai/api/v1";
-    let api_key = "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";
+    let api_key = "";
 
     run_chat_loop(&client, &api_key, url).await?;
     

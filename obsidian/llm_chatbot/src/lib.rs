@@ -86,4 +86,3 @@ pub async fn call_api(client: &Client, api_key: &str, url: &str, json: serde_jso
 
     Ok(body)
 }
-
